@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChannelIO'
-  s.version          = '7.2.3'
+  s.version          = '7.2.4'
   s.summary          = 'Channel plugin for iOS'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -23,13 +23,18 @@ Pod::Spec.new do |s|
   s.author           = { 'ZOYI' => 'eng@zoyi.co' }
   s.source           = { :git => 'https://github.com/zoyi/channel-plugin-ios.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-  #s.script_phase = {
+  # s.script_phase = {
   #  :name => 'ChannelIO Emoji Sync',
   #  :script => '${PODS_TARGET_SRCROOT}/Assets/setup.sh',
   #  :execution_position => :before_compile
-  #}
-  s.source_files = 'ChannelIO/Source/**/*.{swift, h, m}'
-  s.resources = 'ChannelIO/Assets/*'
+  # }
+  # s.source_files = 'ChannelIO/Source/**/*.{swift, h, m}'
+  s.resource_bundles = {		
+     'ChannelIO' => [		
+       'ChannelIO/Assets/*'		
+     ]		
+   }
+  # s.resources = 'ChannelIO/Assets/*'
   s.swift_version = '5.0'
 
   s.frameworks = 'CoreTelephony'
