@@ -9,7 +9,7 @@ FILE_NAME = "extensions.json"
 
 PROJECT_DIR = os.getcwd()
 TYPES_JSON = os.path.join(PROJECT_DIR, 'ChannelIO/Assets/{}'.format(FILE_NAME))
-IMAGE_DIR = os.path.join(PROJECT_DIR, 'ChannelIO/Assets/Images.xcassets')
+IMAGE_DIR = os.path.join(PROJECT_DIR, 'ChannelIO/Assets/ch_Images.xcassets')
 
 # download FILE_NAME.json
 urllib.urlretrieve(ASSET_URL + FILE_NAME, TYPES_JSON)
