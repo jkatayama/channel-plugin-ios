@@ -10,7 +10,7 @@
 		142147831E56D756004C9FAD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142147821E56D756004C9FAD /* CoreTelephony.framework */; };
 		142147891E56D76B004C9FAD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 142147881E56D76B004C9FAD /* libz.tbd */; };
 		1469AF9B1E2F6CF9000A8675 /* UserChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1469AF9A1E2F6CF8000A8675 /* UserChatTests.swift */; };
-		14DFAC681E4A189D00130119 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DFAC671E4A189D00130119 /* Images.xcassets */; };
+		14DFAC681E4A189D00130119 /* ch_Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DFAC671E4A189D00130119 /* ch_Images.xcassets */; };
 		221EBD7622B0D8E700066E0A /* LoungeMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221EBD7522B0D8E700066E0A /* LoungeMoreView.swift */; };
 		222086B81FBAAD37002CFA88 /* CHAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222086B71FBAAD37002CFA88 /* CHAnimations.swift */; };
 		222086BA1FBAB28D002CFA88 /* CHTypingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222086B91FBAB28D002CFA88 /* CHTypingEntity.swift */; };
@@ -562,7 +562,7 @@
 		14D2AA781E24AE06006FEE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14D2AA7D1E24AE07006FEE22 /* ChannelIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChannelIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D2AA841E24AE07006FEE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14DFAC671E4A189D00130119 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Assets/Images.xcassets; sourceTree = "<group>"; };
+		14DFAC671E4A189D00130119 /* ch_Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ch_Images.xcassets; path = Assets/ch_Images.xcassets; sourceTree = "<group>"; };
 		221EBD7522B0D8E700066E0A /* LoungeMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoungeMoreView.swift; sourceTree = "<group>"; };
 		222086B71FBAAD37002CFA88 /* CHAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHAnimations.swift; sourceTree = "<group>"; };
 		222086B91FBAB28D002CFA88 /* CHTypingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHTypingEntity.swift; sourceTree = "<group>"; };
@@ -1710,7 +1710,7 @@
 				65CB14012069190E00E456B5 /* ringtone.mp3 */,
 				652AE2131E81485D00B7484C /* Localizable.strings */,
 				650D7C311E716DBF007DE358 /* countryInfo.json */,
-				14DFAC671E4A189D00130119 /* Images.xcassets */,
+				14DFAC671E4A189D00130119 /* ch_Images.xcassets */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -2387,7 +2387,7 @@
 				3961C1CA235601F500850EC7 /* messages.json in Resources */,
 				655D89C92126754F00ACE89B /* emojis.json in Resources */,
 				652AE2111E81485D00B7484C /* Localizable.strings in Resources */,
-				14DFAC681E4A189D00130119 /* Images.xcassets in Resources */,
+				14DFAC681E4A189D00130119 /* ch_Images.xcassets in Resources */,
 				651A58871E88E3970042A59F /* countryInfo.json in Resources */,
 				22AE76B920E347C700C18355 /* mute.caf in Resources */,
 				9C0951C823D54A0700DE5799 /* TextBlockLexer.g4 in Resources */,
